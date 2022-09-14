@@ -1,0 +1,64 @@
+.cajon-prinsi{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.cajon{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     text-align: center;
+     color: #fff;
+}
+
+body{
+    background: linear-gradient(60deg, #16213e, #61a4bc, #fe7e6d, #e94560);
+    background-size: 500%;
+    animation: gradientAnimationb 5s ease infinite;
+}
+
+@keyframes gradientAnimationb{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+.titu{
+    position: relative;
+    left: 100px;
+    padding: 80px;
+
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #d6f4f4;
+    font-variation-settings: "wght" 900, "ital" 1;
+    font-size: 15rem;
+    text-align: center;
+    color: transparent;
+    font-family: "Meta", sans-serif;
+    text-shadow: 10px 10px  0px #07bccc, 15px 15px #e601c0, 20px 20px 0px #e9019a, 25px 25px #f40468, 45px 45px #482896 ;
+    cursor: pointer;
+}
+
+.titu:hover{
+    -webkit-text-stroke: 4px #d6f4f4;
+    font-variation-settings: "wght" 100, "ital" 0; 
+    text-shadow: none;
+}
+.titu::selection{
+    background-color: red;
+}
+
+
+
